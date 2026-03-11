@@ -1,0 +1,2 @@
+#!/bin/sh
+awk -F: '$3 >= 1000 {print $1}' /etc/passwd
